@@ -1,0 +1,227 @@
+nav{
+    width: 100%;
+    background-color: transparent;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5px;
+    font-size: 20px;
+    position: fixed;
+    overflow: hidden;
+    border-bottom: 1px solid white;
+    z-index: 3;
+    
+}
+
+.nav-1{
+    margin-top: 25px;
+}
+
+.nav-1 .closNav{
+    display: none;
+    transition-duration: 1s;
+}
+
+#openlink{
+    color: white;
+    font-size: 30px;
+    padding-top: 10px;
+    text-decoration: none;
+    margin-right:700px;
+    margin-top: 15px;
+    display: none;
+    transition-duration: 1s;
+    
+  
+}
+
+#openlink:hover{
+    color: gray;
+    font-size: 35px;
+}
+
+.nav-1 a{
+    text-decoration: none;
+    color: white;
+    padding-left: 8px;
+    font-size: 25px;
+   transition-duration: 0.5s;
+
+}
+
+#he2{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    padding-left: 120px;
+  
+    
+}
+
+#he2 h1{
+    color: white;
+    font-size: 70px;
+
+}
+
+.btn{
+    padding: 25px 20px 25px 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 20px;
+    text-align: center;
+    transition-duration: 0.5s;
+    
+    
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    transform: scale(0.9);
+    
+}
+
+.btn a:hover{
+    color: black;
+}
+
+
+
+.nav-1 a:hover{
+    color: gray;
+    font-size: 28px;
+}
+
+
+header{
+    background-image: url("img/ba1.jpg");
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.about{
+    width: 100%;
+    background-color: rgb(202, 205, 207);
+    height: 150px;
+    border-radius: 20px;
+}
+
+.about h1{
+    color: aliceblue;
+    padding-left: 10px;
+    
+}
+
+.about p{
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(202, 205, 207);
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    font-size: 50px;
+    padding-top: 20px;
+    transition-duration: 0.5s;
+
+}
+
+footer a:hover{
+    color: gray;
+    font-size: 55px;
+}
+
+
+    
+@media screen and (max-width : 480px){
+    nav{
+        width: 0%;
+        height: 100%;
+        background-color: transparent;
+        display: none;
+        transition-duration: 1s;
+        font-size: 20px;
+        position: fixed;
+        overflow: hidden;
+        z-index: 3;
+        
+    }
+
+    .nav-1 a{
+        text-decoration: none;
+        color: white;
+        padding-left: 8px;
+        font-size: 25px;
+       transition-duration: 0.5s;
+       display: block;
+    
+    }
+
+    .nav-1 .closNav{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-right: 10px;
+        padding-top: 10px;
+        transition-duration:1s;
+        
+        
+    }
+    
+
+    .about{
+        padding-left: 50px;
+    }
+
+    #openlink{
+        color: white;
+        font-size: 30px;
+        padding-top: 10px;
+        text-decoration: none;
+        display: block;
+        position: absolute;
+        top:0;
+        transition-duration:1.5s;
+        padding-left: 10px;
+        
+      
+    }
+
+    .about{
+        height: 230px;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #he2{
+        transition-duration: 0.5s;
+    }
+    
+    
+}
