@@ -12,3 +12,16 @@ function closNAV(){
     document.getElementById("nav").style.width= "0px";
     document.getElementById("nav").style.display = "block";
 }
+
+function conTactNAV(){
+    document.getElementById("nav").style.width= "0px";
+    document.getElementById("nav").style.display = "block";
+    document.getElementById("openlink").style.display = "block"
+}
+
+function aboutNAV(){
+    document.getElementById("nav").style.width= "0px";
+    document.getElementById("nav").style.display = "block";
+    document.getElementById("openlink").style.display = "block"
+
+}
